@@ -1,57 +1,137 @@
 <!DOCTYPE html>
-<html lang="mn">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Монголын Амт - Нислэгийн Хоол Үйлдвэрлэл</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyServe Catering</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #0055a5;
+            padding: 10px 40px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .highlight {
+            color: #0055a5;
+            font-weight: bold;
+        }
+
+        .services, .about, .contact {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background-color: #0055a5;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: white;
+        }
+    </style>
 </head>
-<body class="bg-white text-gray-800 font-sans">
+<body>
 
-  <header class="bg-gradient-to-r from-blue-200 to-blue-500 text-white py-10 text-center">
-    <h1 class="text-4xl font-bold mb-2">✈️ Монголын Амт – Тэнгэрт хүрэх аялал</h1>
-    <p class="text-lg italic">“Өнөөдөр хийсэн нэг хоол, маргааш инээмсэглэл болно.”</p>
-  </header>
+    <header>
+        <h1>SkyServe Catering</h1>
+        <p>Your Trusted Airline Catering Partner</p>
+    </header>
 
-  <section class="max-w-5xl mx-auto px-4 py-12">
-    <h2 class="text-2xl font-semibold mb-4">🌟 Алсын хараа</h2>
-    <p class="mb-6 text-lg">Дэлхийн тэнгэрт Монголын амтыг мэдрүүлнэ. Сэтгэлд үлдэх амт, сэтгэлд хүрэх чанарыг түгээх нь бидний зорилго.</p>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <h2 class="text-2xl font-semibold mb-4">🎯 Эрхэм зорилго</h2>
-    <p class="mb-6 text-lg">Аюулгүй, амттай, шинэлэг нислэгийн хоолоор дэлхийн түвшинд хүрнэ.</p>
+    <section class="about" id="about">
+        <h2>About SkyServe</h2>
+        <p>
+            SkyServe Catering specializes in <span class="highlight">premium in-flight catering solutions</span> for commercial and private airlines.
+            We operate 24/7 from major airport hubs and deliver <strong>fresh, high-quality meals</strong> tailored to various dietary needs and cultural preferences.
+        </p>
+        <p>
+            With over 15 years in the aviation catering industry, we understand the importance of <span class="highlight">punctuality, hygiene, and excellence</span>.
+        </p>
+    </section>
 
-    <h2 class="text-2xl font-semibold mb-4">🔥 Стратегийн Чиглэлүүд</h2>
-    <ul class="list-disc pl-6 mb-6 space-y-2 text-lg">
-      <li>Амт ба чанарыг шинэлэг байдлаар хослуулах</li>
-      <li>Цаг хугацаанд нарийн, найдвартай үйлчилгээ</li>
-      <li>Байгальд ээлтэй, тогтвортой үйлдвэрлэл</li>
-      <li>Хүнсний аюулгүй байдлыг чанд мөрдөх</li>
-      <li>Хүмүүнлэг, хамт олны соёлыг төлөвшүүлэх</li>
-    </ul>
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Gourmet meal planning for all cabin classes</li>
+            <li>Special dietary meals: vegetarian, kosher, halal, gluten-free</li>
+            <li>24/7 logistics and on-time delivery to aircraft</li>
+            <li>VIP and private jet catering</li>
+            <li>Custom branding and airline-specific menu design</li>
+            <li>Waste management and eco-friendly packaging solutions</li>
+        </ul>
+    </section>
 
-    <h2 class="text-2xl font-semibold mb-4">📈 Зорилтот Үр Дүн</h2>
-    <ul class="list-disc pl-6 mb-6 space-y-2 text-lg">
-      <li>Монголдоо тэргүүлэх чанартай нислэгийн хоол</li>
-      <li>Олон улсын түншлэлүүдийг хөгжүүлэх</li>
-      <li>Зорчигчдын сэтгэл ханамжийг өсгөх</li>
-      <li>Зардлыг оновчтой, үр ашигтай удирдах</li>
-      <li>Нийгэмд хариуцлагатай, байгальд ээлтэй бизнес</li>
-    </ul>
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
 
-    <h2 class="text-2xl font-semibold mb-4">💎 Үнэт зүйлс</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg">
-      <p>• Амлалтдаа хүрэх — Үргэлж чанарыг эрхэмлэнэ</p>
-      <p>• Иновац — Бүтээлчээр сэтгэж, шинэчлэнэ</p>
-      <p>• Хариуцлага — Аюулгүй ажиллагаа, стандартын мөрдөлт</p>
-      <p>• Хамтын ажиллагаа — Багийн хүчээр оргилд хүрнэ</p>
-      <p>• Хүндэтгэл — Итгэлцэлд суурилсан харилцаа</p>
-    </div>
-  </section>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
 
-  <footer class="bg-gray-100 py-6 text-center text-sm text-gray-600">
-    © 2025 Монголын Нислэгийн Хоол Үйлдвэрлэл. Бүх эрх хуулиар хамгаалагдсан.
-  </footer>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 SkyServe Catering | Serving Excellence at 30,000 Feet
+    </footer>
 
 </body>
 </html>
-
