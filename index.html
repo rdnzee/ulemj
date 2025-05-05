@@ -1,137 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="mn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkyServe Catering</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f7fa;
-        }
-
-        header {
-            background-color: #003366;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #0055a5;
-            padding: 10px 40px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 40px;
-            max-width: 1000px;
-            margin: auto;
-        }
-
-        .highlight {
-            color: #0055a5;
-            font-weight: bold;
-        }
-
-        .services, .about, .contact {
-            background-color: white;
-            margin-bottom: 20px;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        form input, form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        form button {
-            background-color: #0055a5;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #003366;
-            color: white;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Үлэмж ЭС ЖИ ЖИ Катеринг</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>SkyServe Catering</h1>
-        <p>Your Trusted Airline Catering Partner</p>
-    </header>
-
+  <!-- Баннер хэсэг -->
+  <header class="hero-banner">
+    <h1>Өндөрт сэтгэлээс урласан амтыг хүргэнэ</h1>
+    <p>Үлэмж ЭС ЖИ ЖИ Катеринг — таны ая тух, амжилтын амтыг бүтээхэд зүрх сэтгэлээ зориулдаг.</p>
     <nav>
-        <a href="#about">About Us</a>
-        <a href="#services">Our Services</a>
-        <a href="#contact">Contact</a>
+      <a href="#about">Бидний тухай</a>
+      <a href="#jobs">Ажлын байр</a>
     </nav>
+  </header>
 
-    <section class="about" id="about">
-        <h2>About SkyServe</h2>
-        <p>
-            SkyServe Catering specializes in <span class="highlight">premium in-flight catering solutions</span> for commercial and private airlines.
-            We operate 24/7 from major airport hubs and deliver <strong>fresh, high-quality meals</strong> tailored to various dietary needs and cultural preferences.
-        </p>
-        <p>
-            With over 15 years in the aviation catering industry, we understand the importance of <span class="highlight">punctuality, hygiene, and excellence</span>.
-        </p>
-    </section>
+  <!-- Бидний тухай -->
+  <section id="about" class="section">
+    <h2>Бидний тухай</h2>
+    <p>Бид бол нислэгийн үйлчилгээнд зориулсан хоол үйлдвэрлэлийн мэргэшсэн баг. Чанар, цэвэрлэгээ, амтыг өндөрт өргөнө.</p>
+    <a href="#">Дэлгэрэнгүй унших</a>
+  </section>
 
-    <section class="services" id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Gourmet meal planning for all cabin classes</li>
-            <li>Special dietary meals: vegetarian, kosher, halal, gluten-free</li>
-            <li>24/7 logistics and on-time delivery to aircraft</li>
-            <li>VIP and private jet catering</li>
-            <li>Custom branding and airline-specific menu design</li>
-            <li>Waste management and eco-friendly packaging solutions</li>
-        </ul>
-    </section>
+  <!-- Үйлчилгээ -->
+  <section id="services" class="section">
+    <h2>Манай үйлчилгээ</h2>
+    <ul>
+      <li>Катеринг үйлдвэрлэл</li>
+      <li>ВИП үйлчилгээ</li>
+      <li>Тусгай захиалга</li>
+    </ul>
+    <a href="#">Үйлчилгээ бүрт дэлгэрэнгүй</a>
+  </section>
 
-    <section class="contact" id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" required>
+  <!-- Ажлын байр -->
+  <section id="jobs" class="section">
+    <h2>Нээлттэй ажлын байр</h2>
+    <p>Манай багийн нэгэн хэсэг болоход та бэлэн үү?</p>
+    <a href="#">Анкет бөглөх</a>
+  </section>
 
-            <label for="email">Your Email</label>
-            <input type="email" id="email" name="email" required>
+  <!-- Мэдээ -->
+  <section id="news" class="section">
+    <h2>Мэдээ, үйл явдал</h2>
+    <ul>
+      <li>Анхны нислэгт зориулсан анхны зоог</li>
+      <li>Катеринг үйлдвэрийн нээлтийн үйл ажиллагаа</li>
+    </ul>
+    <a href="#">Бүгдийг үзэх</a>
+  </section>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <footer>
-        &copy; 2025 SkyServe Catering | Serving Excellence at 30,000 Feet
-    </footer>
+  <!-- Холбоо барих -->
+  <footer id="contact" class="section">
+    <h2>Холбоо барих</h2>
+    <p>Утас: 99112233</p>
+    <p>И-мэйл: info@ulimjcat.mn</p>
+    <p>Соц сүлжээ: <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+  </footer>
 
 </body>
 </html>
